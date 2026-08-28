@@ -1,0 +1,18 @@
+export const CONFIG = {
+  WIDTH: 800,
+  HEIGHT: 450,
+  GROUND_Y: 390,
+  GRAVITY: 2200,
+  JUMP_VELOCITY: -720,
+  BASE_SPEED: 260,
+  MAX_SPEED: 700,
+  SPEED_RAMP: 12,
+  SPAWN_MIN_GAP: 0.9,
+  SPAWN_MAX_GAP: 1.8,
+  PLAYER_X: 120,
+  PLAYER_WIDTH: 44,
+  PLAYER_HEIGHT: 64,
+  BARREL: { width: 36, height: 40 },
+  FENCE: { width: 48, height: 44 },
+  SCORE_PER_PX: 0.1,
+};

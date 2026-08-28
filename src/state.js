@@ -1,0 +1,21 @@
+export const state = {
+  phase: 'start',
+  width: 800,
+  height: 450,
+  groundY: 390,
+  distance: 0,
+  speed: 0,
+  score: 0,
+  highscore: 0,
+  player: {
+    x: 120,
+    y: 0,
+    vy: 0,
+    width: 44,
+    height: 64,
+    onGround: true,
+    legPhase: 0,
+  },
+  obstacles: [],
+  spawnTimer: 0,
+};
