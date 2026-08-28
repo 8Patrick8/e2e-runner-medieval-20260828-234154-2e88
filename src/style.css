@@ -1,0 +1,39 @@
+:root {
+  --color-bg: #1f2a3a;
+  --color-fg: #f4ecd8;
+  --color-accent: #c8472e;
+  --color-border: #5b6b7f;
+  --color-muted: #8a94a3;
+  --color-sky: #3b556d;
+  --color-hill_far: #6e7b8f;
+  --color-hill_near: #5f7f4f;
+  --color-ground: #4a3828;
+  --color-ground_top: #7fa653;
+  --color-wood: #8a5a34;
+  --color-wood_dark: #3c2a1c;
+  --color-steel: #aab4c2;
+  --color-outline: #10141a;
+  --color-danger: #e05a3a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--color-bg);
+  font-family: 'Courier New', ui-monospace, Menlo, Consolas, monospace;
+}
+
+#game {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  touch-action: none;
+}
