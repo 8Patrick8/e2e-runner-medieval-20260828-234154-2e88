@@ -60,3 +60,14 @@ test('drawGameOverScreen renders a backdrop card', () => {
   assert.ok(calls.fill >= 1, 'card background is filled');
   assert.ok(calls.stroke >= 1, 'card border is stroked');
 });
+
+test('drawGameOverScreen draws a Neustart button with label', () => {
+  const { ctx, calls } = createMockCtx();
+  drawGameOverScreen(ctx);
+
+  assert.ok(
+    calls.fillText.includes('Neustart'),
+    'button label is drawn'
+  );
+  assert.ok(calls.fill >= 3, 'button outline and body are filled');
+});
